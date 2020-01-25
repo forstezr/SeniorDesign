@@ -1,0 +1,24 @@
+<nb-card class="card" >
+  <nb-card-header class="slot">
+    <div class="space space-component background-transparent">
+      <h6 class="text-basic">Request Database Data</h6>
+    </div>
+  </nb-card-header>
+
+  <nb-card-body class="slot">
+    <div class="space space-component1 background-transparent">
+      <nb-checkbox status="success">Temperture</nb-checkbox>
+      <nb-checkbox status="success">Humidity</nb-checkbox>
+      <nb-checkbox status="success">Pressure</nb-checkbox>
+      <button nbButton class="right" size="medium" appearance="filled" status="primary">
+          Request Data
+      </button>
+    </div>
+  </nb-card-body>
+
+  <nb-card-footer class="slot">
+    <div class="space space-component1 background-transparent">
+      <bk-line-chart class="line-chart" [data]="data"></bk-line-chart>
+    </div>
+  </nb-card-footer>
+</nb-card>

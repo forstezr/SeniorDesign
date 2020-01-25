@@ -1,0 +1,11 @@
+
+.space-component {
+  height: auto;
+  min-height: 2rem;
+  flex-grow: 1;
+  flex-basis: 0;
+  align-items: stretch;
+  align-content: stretch;
+  justify-content: flex-start;
+  overflow: visible;
+}
